@@ -197,8 +197,6 @@ A suite of 38 validation and reconciliation checks was developed to verify:
 - Data completeness
 - Business rule compliance
 
-All 38 checks pass on the delivered build. Results are written to `etl.DataQualityResult` with a computed PASS/FAIL status.
-
 ## Skills Demonstrated
 
 Data Engineering · SQL Development · ETL Pipeline Development · Data Warehousing · Dimensional Modelling · Data Integration · Data Profiling · Data Transformation · Business Intelligence · Data Visualization · OLAP Analysis · KPI Reporting · Business Analytics · Data Quality Management
