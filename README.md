@@ -63,6 +63,7 @@ OLAP is delivered through Power BI's in-memory tabular engine (VertiPaq) over th
 | [`Scripts/`](Scripts/) | The seven T-SQL pipeline scripts, run in numeric order |
 | [`Dashboard/DWBI_Internet_Sales_v3.pbix`](Dashboard/DWBI_Internet_Sales_v3.pbix) | Power BI report and data model |
 | [`Dashboard/DWBI_Internet_Sales_v3.pdf`](Dashboard/DWBI_Internet_Sales_v3.pdf) | PDF export of the four dashboard pages |
+| [`docs/images/`](docs/images/) | Dashboard screenshots used in this README |
 | [`DWBI_2026-DS-15_FinalReport.pdf`](DWBI_2026-DS-15_FinalReport.pdf) / [`.docx`](DWBI_2026-DS-15_FinalReport.docx) | Full project report: design, ETL, validation, insights |
 
 ## Getting Started
@@ -143,6 +144,24 @@ Interactive Power BI dashboards provide analytical capabilities across four repo
 - Enterprise Sales and Channel Profitability
 
 The dashboards support KPI monitoring, drill-down, roll-up, interactive filtering, historical trend analysis and multidimensional business performance evaluation.
+
+### Dashboard Preview
+
+**Executive Summary:** headline KPIs, sales by subcategory and country, and profit margin against a 40% target.
+
+![Internet Sales Executive Summary](docs/images/executive-summary.png)
+
+**Trend Analysis:** monthly sales against the same month last year, year-to-date growth, YoY %, and a month-by-year heatmap.
+
+![Sales Trend Analysis](docs/images/trend-analysis.png)
+
+**Interactive Analysis:** drill-down and roll-up by category, year and territory, with synced slicers.
+
+![Interactive OLAP Analysis](docs/images/interactive-analysis.png)
+
+**Enterprise Sales Overview:** internet and reseller channels compared on sales, margin and annual trend.
+
+![Enterprise Sales and Channel Profitability](docs/images/enterprise-sales-overview.png)
 
 The Power BI model imports the `dm_internet_sales` mart, plus the enterprise sales fact (both channels) for the channel profitability page. It includes:
 
