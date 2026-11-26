@@ -64,7 +64,7 @@ OLAP is delivered through Power BI's in-memory tabular engine (VertiPaq) over th
 | [`Dashboard/DWBI_Internet_Sales_v3.pbix`](Dashboard/DWBI_Internet_Sales_v3.pbix) | Power BI report and data model |
 | [`Dashboard/DWBI_Internet_Sales_v3.pdf`](Dashboard/DWBI_Internet_Sales_v3.pdf) | PDF export of the four dashboard pages |
 | [`docs/images/`](docs/images/) | Dashboard screenshots used in this README |
-| [`DWBI_2026-DS-15_FinalReport.pdf`](DWBI_2026-DS-15_FinalReport.pdf) / [`.docx`](DWBI_2026-DS-15_FinalReport.docx) | Full project report: design, ETL, validation, insights |
+| [`DWBI_2026-DS-15_FinalReport.pdf`](DWBI_2026-DS-15_FinalReport.pdf) | Full project report: design, ETL, validation, insights |
 
 ## Getting Started
 

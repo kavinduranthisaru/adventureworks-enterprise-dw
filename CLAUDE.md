@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A university (SLIIT IT3101) data warehouse project: T-SQL scripts that build an enterprise data warehouse (`AdventureWorks_DW`) on Microsoft SQL Server from the `AdventureWorks2022` OLTP database plus CSV/JSON/XML files, and a Power BI dashboard on top of it. There is no build system, test runner, or linter. The deliverables are the numbered SQL scripts in [Scripts/](Scripts/), the Power BI file in [Dashboard/](Dashboard/), and the final report (`DWBI_2026-DS-15_FinalReport.docx/.pdf`).
+A university (SLIIT IT3101) data warehouse project: T-SQL scripts that build an enterprise data warehouse (`AdventureWorks_DW`) on Microsoft SQL Server from the `AdventureWorks2022` OLTP database plus CSV/JSON/XML files, and a Power BI dashboard on top of it. There is no build system, test runner, or linter. The deliverables are the numbered SQL scripts in [Scripts/](Scripts/), the Power BI file in [Dashboard/](Dashboard/), and the final report (`DWBI_2026-DS-15_FinalReport.pdf`; the `.docx` source is kept locally and git-ignored).
 
 ## Running the pipeline
 
